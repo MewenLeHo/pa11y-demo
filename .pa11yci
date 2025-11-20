@@ -1,13 +1,13 @@
 {
   "defaults": {
     "standard": "WCAG2AA",
-    "timeout": 30000
-  },
-  "chromeLaunchConfig": {
-    "args": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ]
+    "timeout": 30000,
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox"
+      ]
+    }
   },
   "urls": [
     "https://mewenleho.github.io/pa11y-demo/"
