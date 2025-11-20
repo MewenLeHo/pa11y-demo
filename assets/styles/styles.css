@@ -1,0 +1,107 @@
+.nav-link:hover {
+  color: #e87168;
+}
+
+.navbar,
+.navbar .dropdown .dropdown-menu {
+  background-color: #14505C;
+}
+
+.dropdown-item:focus[data-focus-visible-added] {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-reserver {
+  background-color: #F8B87E;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero {
+  height: 600px;
+  background: url('https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg') center/cover;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-title {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text.price {
+  color: #666;
+}
+
+.card a {
+  color: #14505C;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+
+.advantage-card {
+  text-align: center;
+  width: 200px;
+}
+
+.advantage-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.advantage-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.advantage-desc {
+  color: #666;
+}
+
+form .btn {
+  background-color: #14505C;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer form .btn {
+  background-color: #fff;
+  color: #14505C;
+}
+
+.countries a {
+  text-decoration: none;
+  color: #CB3434;
+}
