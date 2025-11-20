@@ -1,0 +1,9 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000
+  },
+  "urls": [
+    "https://mewenleho.github.io/pa11y-demo/"
+  ]
+}

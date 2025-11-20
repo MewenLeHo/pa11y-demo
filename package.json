@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "pa11y-ci": "^4.0.1"
+  },
+    "scripts": {
+    "test:a11y": "pa11y-ci"
+  }
+}
